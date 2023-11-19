@@ -4,6 +4,8 @@
     border: 0;
 }
 
+/*Estilização menu de navegação*/
+
 #menuSuperior {
     height: 103px;
     display: flex;
@@ -14,40 +16,45 @@
     border-bottom: 1px solid white;
 }
 
-#menu {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
+    #menu {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
 
-#menuSuperior div a {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 25x;
-    font-style: normal;
-    font-weight: 600;
-    text-decoration: none;
-}
+        #menuSuperior div a {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 25x;
+            font-style: normal;
+            font-weight: 600;
+            text-decoration: none;
+        }
 
-#menuSuperior div a:hover {
-    color: #CCC;
-}
+        #menuSuperior div a:hover {
+            color: #CCC;
+        }
 
-#menuSuperior button {
-    width: 80px;
-    height: 39px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    background: #0C70F2;
-    box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
-}
+    #menuSuperior button {
+        width: 80px;
+        height: 39px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        background: #0C70F2;
+        box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+    }
 
-#menuSuperior button:hover {
-    cursor: pointer;
-    color: #CCC;
-    box-shadow: 3px 2px 4px rgba(24, 119, 243, 0.425);
-}
+    #menuSuperior button:hover {
+        cursor: pointer;
+        color: #CCC;
+        box-shadow: 3px 2px 4px rgba(24, 119, 243, 0.425);
+    }
 
+/*Estilização section*/
+
+section {
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91% , rgba(12, 112, 242, 0.00) 24.84%) #303030;
+}
